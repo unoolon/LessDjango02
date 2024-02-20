@@ -9,5 +9,5 @@ urlpatterns = [
     path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
     path("link/", include("polls.urls")),
-    path("page65/", views_page, name="page"),
+    path("page/", views_page, name="page"),
 ]
