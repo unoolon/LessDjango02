@@ -5,8 +5,8 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
-def logg(request):
-    return HttpResponse("page.html")
+def views_page(request):
+    return HttpResponse("yjyjyj")
 
 def detail(request, question_id):
     return HttpResponse("You're looking at question %s." % question_id)
