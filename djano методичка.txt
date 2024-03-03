@@ -1,0 +1,18 @@
+1 Создать стандартный проект в pycharm
+2 pip install django
+3 pip freeze > requirements.txt
+4 python -m django startproject myweb | django-admin startproject mysite
+5 cd myweb
+6 python manage.py runserver
+7 python manage.py startapp polls
+
+База данных
+1 python manage.py migrate
+
+INSTALLED_APPS = [
+	"название приложения.apps.НазваниеприлConfig",
+	"polls.apps.PollsConfig",
+]
+
+2 python manage.py makemigrations polls
+3 python manage.py createsuperuser
